@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FANTASY Online Game Store</title>
+    <link rel="stylesheet" href="imkcss.css">
+    <script type="text/javascript">
+        window.setTimeout("waktu()",1000);
+        function waktu() {
+            var tanggal = new Date();
+            setTimeout("waktu()",1000);
+            document.getElementById("jam").innerHTML = tanggal.getHours();
+            document.getElementById("menit").innerHTML = tanggal.getMinutes();
+            document.getElementById("detik").innerHTML = tanggal.getSeconds();
+        }
+    </script>
+</head>
+<style>
+    #jam-digital{overflow:hidden; width:350px}
+    #hours{float:left; width:100px; height:50px; background-color:#FF0000; margin-right:25px}
+    #minute{float:left; width:100px; height:50px; background-color:#FF0000}
+    #second{float:right; width:100px; height:50px; background-color:#FF0000; margin-left:25px}
+    #jam-digital p{color:#000; font-size:36px; text-align:center; margin-top:4px}
+</style>
+<body>
+    <nav> 
+        <div class="wrapper">
+            <div class="logo"><a href=''>FANTASY</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#pc">PC</a></li>
+                    <li><a href="#playstation">Playstation</a></li>
+                    <li><a href="#nintendo">Nintendo</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="" class="tbl-hitam">Sign In</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+                                                                            <!--Home-->
+    <p>
+        <div id="jam-digital">
+                <div id="hours"><p id="jam"></p></div>
+                <div id="minute"><p id="menit"></p></div>
+                <div id="second"><p id="detik"></p></div>
+        </div>
+        <h1 style="font-size: 20px; font-family: Calibri;" id="jam"></h1>
+    </p>
+        <section id="home">
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2cc116d7-1aa3-4a4f-8bc7-bfaeece5bf0b/dew4rem-8e768ca5-1ac6-4ea4-9d6e-06b93b169bc2.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJjYzExNmQ3LTFhYTMtNGE0Zi04YmM3LWJmYWVlY2U1YmYwYlwvZGV3NHJlbS04ZTc2OGNhNS0xYWM2LTRlYTQtOWQ2ZS0wNmI5M2IxNjliYzIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.6rvO70oCInIvlMjOpMD9VOV0FGCFfkKgseTLrIvCy7g"style="width:1070px;height:420px;">
+        </section>
+                                                                            <!--PC-->
+        <section id="pc">
+            <div class="left">
+                <div class="kolom">
+                    <p class="deskripsi">PC Games</p>
+                </div>
+
+                <div class="game-list">
+                    <div class="kartu-game">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-y5lAZq1y5y3S2fNWdchPjqCsR3QVR8LZhQ&usqp=CAU"/>
+                        <p>Genshin Impact</p>
+                        <p>(Adventure)</p>
+                        <p>Free</p>
+                    </div>
+                    <div class="kartu-game">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJnGU3Fl1dx9ArWpRfgJTJwjPqWin2tL7aSiNaPwkih8Nj0VDmF3oVBQUsOyFR9EJHZqE&usqp=CAU"/>
+                        <p>Valorant</p>
+                        <p>(FPS)</p>
+                        <p>Free</p>
+                    </div>
+                    <div class="kartu-game">
+                        <img src="https://image.api.playstation.com/vulcan/img/rnd/202105/2616/031IHhxEk8txw0w3IKfGXFiW.png"/>
+                        <p>Dead By Daylight</p>
+                        <p>(Horror)</p>
+                        <p>Rp 136.000</p>
+                    </div>
+                    <div class="kartu-game">
+                        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202009/0404/IZEXjCSSvNkDE3AAb0iafW8k.png"/>
+                        <p>Nier Replicant</p>
+                        <p>(RPG)</p>
+                        <p>Rp 879.000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a href="" class="tbl-merah">See more >>></a>
+        <hr>   
+                                                                        <!--PS-->
+        <section id="playstation">
+            <div class="left">
+                <div class="kolom">
+                    <p class="deskripsi">Playstation Games</p>
+                </div>
+
+                <div class="game-list">
+                    <div class="kartu-game">
+                        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202010/0221/vC7trMorHJgbImp8PCQvpI0p.png"/>
+                        <p>Horizon Zero Dawn</p>
+                        <p>(Adventure, Sci-fi)</p>
+                        <p>Rp 210.000</p>
+                    </div>
+                    <div class="kartu-game">
+                        <img src="https://image.api.playstation.com/vulcan/img/cfn/11307ed_khjqrf58qkkY2FLsgrXWnJ52i_o1bxyPD2L9Oq4QYIK7aqGmGxsADug2MADSVqkJsrlqSrlDfWbLifjbJU0Rz226.png"/>
+                        <p>Persona 5</p>
+                        <p>(J-RPG)</p>
+                        <p>Rp 770.000</p>
+                    </div>
+                    <div class="kartu-game">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm9PvH9RYxDjWBGVNb4WhEoE9aoPCPuQA5jg&usqp=CAU"/>
+                        <p>The Witcher 3</p>
+                        <p>(RPG, Adventure)</p>
+                        <p>Rp 360.000</p>
+                    </div>
+                    <div class="kartu-game">
+                        <img src="https://image.api.playstation.com/cdn/UP1024/CUSA00834_00/SENiGRRAKhgGlJYklKtlJSH8KgIu6YSz.png"/>
+                        <p>Guilty Gear XRD</p>
+                        <p>(Anime, Fighting)</p>
+                        <p>Rp 750.000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a href="" class="tbl-merah">See more >>></a>
+        <hr>
+                                                                    <!--Game Nintendo-->
+        <section id="nintendo">
+            <div class="left">
+                <div class="kolom">
+                    <p class="deskripsi">Nintendo Games</p>
+                </div>
+
+                <div class="game-list">
+                    <div class="kartu-game">
+                        <img src="https://images.tokopedia.net/img/cache/500-square/product-1/2019/2/27/10702195/10702195_c6d14497-d00c-4508-8d5c-64b46ff3d2b9_960_960.jpg"/>
+                        <p>The Legend of Zelda: Breath of The Wild</p>
+                        <p>(Adventure)</p>
+                        <p>Rp 862.000</p>
+                    </div>
+                    <div class="kartu-game">
+                        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202107/2623/cf7Ot0VeGobVulMq9OCZk88p.png"/>
+                        <p>Rocket League</p>
+                        <p>(Racing, Action)</p>
+                        <p>Free</p>
+                    </div>
+                    <div class="kartu-game">
+                        <img src="https://asset.vg247.com/super_smash_bros_ultimate_9rsCRcy.jpg/BROK/thumbnail/1200x1200/quality/100/super_smash_bros_ultimate_9rsCRcy.jpg"/>
+                        <p>Super Smash Bros</p>
+                        <p>(Action, Fighting)</p>
+                        <p>Rp 862.000</p>
+                    </div>
+                    <div class="kartu-game">
+                        <img src="https://cf.shopee.co.id/file/e01477d2ef53f96515ecf6e3f39eaa83"/>
+                        <p>Pokemon Sword and Shield</p>
+                        <p>(Adventure Role)</p>
+                        <p>Rp 1.722.000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a href="" class="tbl-merah">See more >>></a>
+        <hr>
+                                                                        <!--Contact-->
+    <div id="contact">
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p><b>FANTASY</b> adalah sebuah tempat pembelian game online yang bertempat di Ambulu, Jember. Untuk pembelian bisa dilakukan secara online atau bisa langsung datang ke toko.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Lokasi: Jl. Basuki Rahmat no. 33, Ambulu, Jember</p>
+                    <p>Nomor Telepon: +62 821 3924 2512</p>
+                    <p>E-mail : fantasy.ogs@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <p>FB : Fantasy Online Game Store</p>
+                    <p>YT : FANTASY Ambulu</p>
+                    <p>IG : @Fantasy.OGS</p>
+                    <p>TW : @fantasy.ogs</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="1100" height="185" id="gmap_canvas" src="https://maps.google.com/maps?q=Jl.%20Raya%20Suyitman%20No.141,%20Sumberan,%20Ambulu,%20Kabupaten%20Jember,%20Jawa%20Timur%2068172&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-org.net">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:185px;width:1100px;}</style><a href="https://www.embedgooglemap.net">map iframe</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:185px;width:1100px;}</style></div></div>
+
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2021. <b>FANTASY</b> All Rights Reserved.
+        </div>
+    </div>
+
+</body>
+</html>
